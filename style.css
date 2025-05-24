@@ -1,0 +1,51 @@
+@import url('https://fonts.cdnfonts.com/css/gavency-free');
+@import url('https://fonts.cdnfonts.com/css/magilio');
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom,
+            #ff9aa2,
+            /* Light red */
+            #FFC371,
+            /* Soft yellow */
+            #ffb050,
+            /* Orange */
+            #fa8873
+            /* Tomato red */
+        );
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: xxx-large;
+    color: cornsilk
+}
+
+img {
+    height: 600px;
+    margin: 20px 0px;
+    border: solid transparent;
+    border-radius: 20px;
+}
+
+#titulo {
+    font-family: 'Gavency Free', sans-serif;
+    
+}
+
+th,
+td {
+    width: 150px;
+    font-family: 'Magilio', sans-serif;
+    text-align: center;
+}
+
+.relogio {
+    width: 75px;
+}
