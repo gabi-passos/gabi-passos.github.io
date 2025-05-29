@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         //Busca a diferenca de dias ate a data
         document.getElementById("dias").textContent = dateDiff.getDate() - 1 + " dias"
-        document.getElementById("horas").textContent = dateDiff.getHours() + "h"
+        document.getElementById("horas").textContent = dateDiff.getHours() + 3 + "h"
         document.getElementById("minutos").textContent = dateDiff.getMinutes() + "m"
         document.getElementById("segundos").textContent = dateDiff.getSeconds()+ "s"
     }, 1000)
